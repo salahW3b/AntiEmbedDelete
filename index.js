@@ -3,6 +3,7 @@ const QuickDB = require('quick.db');
 const db = new QuickDB();
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent] });
 const salon = '';
+const token = '';
 
 client.on('ready', () => {
     console.log(`Connecté sur ${client.user.tag} !`);
@@ -49,4 +50,4 @@ client.on('messageDelete', async message => {
     });
 });
 
-client.login('token');
+client.login(token);
