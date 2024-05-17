@@ -3,4 +3,6 @@
 
 > [!CAUTION]
 > Config les salons et le token dans le index
-## npm i && node index.js 
+
+> [!IMPORTANT]
+> npm i && node index.js 
